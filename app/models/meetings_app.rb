@@ -1,0 +1,2 @@
+class MeetingsApp < ApplicationRecord
+end

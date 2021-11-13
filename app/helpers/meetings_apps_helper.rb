@@ -1,0 +1,2 @@
+module MeetingsAppsHelper
+end
