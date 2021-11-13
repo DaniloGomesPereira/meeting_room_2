@@ -1,35 +1,39 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Meetings Apps</h1>
-
-<table class="table table-striped table-bordered table-hover">
-  <thead class="table-dark">
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Start time</th>
-      <th>End time</th>
-      <th>User</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @meetings_apps.each do |meetings_app| %>
+<% if user_signed_in? %>
+  <table class="table table-striped table-bordered table-hover">
+    <thead class="table-dark">
       <tr>
-        <td><%= meetings_app.title %></td>
-        <td><%= meetings_app.description %></td>
-        <td><%= meetings_app.start_time %></td>
-        <td><%= meetings_app.end_time %></td>
-        <td><%= meetings_app.user_id %></td>
-        <td><%= link_to 'Show', meetings_app %></td>
-        <td><%= link_to 'Edit', edit_meetings_app_path(meetings_app) %></td>
-        <td><%= link_to 'Destroy', meetings_app, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Start time</th>
+        <th>End time</th>
+        <th>User</th>
+        <th colspan="3"></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
 
-<br>
+    <tbody>
+      <% @meetings_apps.each do |meetings_app| %>
+        <tr>
+          <td><%= meetings_app.title %></td>
+          <td><%= meetings_app.description %></td>
+          <td><%= meetings_app.start_time %></td>
+          <td><%= meetings_app.end_time %></td>
+          <td><%= meetings_app.user_id %></td>
+          <td><%= link_to 'Show', meetings_app %></td>
+          <td><%= link_to 'Edit', edit_meetings_app_path(meetings_app) %></td>
+          <td><%= link_to 'Destroy', meetings_app, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 
-<%= link_to 'New Meetings App', new_meetings_app_path, class:"btn btn-secondary" %>
+  <br>
+
+  <%= link_to 'New Meetings App', new_meetings_app_path, class:"btn btn-secondary" %>
+<% else %>
+
+  <h1>Bem-vindo a Sala de Reuniões</h1>
+  
+<% end %>

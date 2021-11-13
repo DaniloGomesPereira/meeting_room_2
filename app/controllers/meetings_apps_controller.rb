@@ -1,5 +1,7 @@
 class MeetingsAppsController < ApplicationController
   before_action :set_meetings_app, only: %i[ show edit update destroy ]
+  before_action :authenticate_user!, except: %i[ index show ]
+  before_action :correct_user, only: %i[ edit update destroy ]
 
   # GET /meetings_apps or /meetings_apps.json
   def index
@@ -12,7 +14,7 @@ class MeetingsAppsController < ApplicationController
 
   # GET /meetings_apps/new
   def new
-    @meetings_app = MeetingsApp.new
+    @meetings_app = current_user.meetings_app.build
   end
 
   # GET /meetings_apps/1/edit
@@ -21,7 +23,7 @@ class MeetingsAppsController < ApplicationController
 
   # POST /meetings_apps or /meetings_apps.json
   def create
-    @meetings_app = MeetingsApp.new(meetings_app_params)
+    @meetings_app = current_user.meetings_app.build(meetings_app_params)
 
     respond_to do |format|
       if @meetings_app.save
@@ -54,6 +56,11 @@ class MeetingsAppsController < ApplicationController
       format.html { redirect_to meetings_apps_url, notice: "Meetings app was successfully destroyed." }
       format.json { head :no_content }
     end
+  end
+
+  def correct_user
+    @meetings_app = current_user.meetings_app.find_by(id: params[:id])
+    redirect_to meetings_apps_path, notice: 'Sem autorização para editar esta reunião' if@meetings_app.nil?
   end
 
   private

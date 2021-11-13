@@ -33,8 +33,9 @@
 
   <div class="field form-group">
     <%= form.label :user_id %>
-    <%= form.number_field :user_id, class:"form-control" %>
+    <%= form.number_field :user_id, id: :meetings_app_user_id, class:"form-control", value: current_user.id, type: :hidden %>
   </div>
+  <br/>
 
   <div class="actions ">
     <%= form.submit %>
