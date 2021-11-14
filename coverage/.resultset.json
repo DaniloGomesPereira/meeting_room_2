@@ -12,6 +12,11 @@
           2,
           2,
           2,
+          2,
+          null,
+          null,
+          1,
+          2,
           null,
           null
         ]
@@ -607,6 +612,50 @@
           null
         ]
       },
+      "C:/Users/danil/meeting_room/config/initializers/validates_timeliness.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "C:/Users/danil/meeting_room/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
@@ -625,37 +674,29 @@
           null
         ]
       },
-      "C:/Users/danil/meeting_room/spec/factories/meetings.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "C:/Users/danil/meeting_room/spec/factories/meetings_apps.rb": {
         "lines": [
-          1,
-          1,
-          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           1,
           1,
           1,
           1,
           null,
-          null
-        ]
-      },
-      "C:/Users/danil/meeting_room/spec/factories/users.rb": {
-        "lines": [
-          1,
-          1,
           null,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -713,11 +754,14 @@
           1,
           null,
           1,
+          2,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1636895107
+    "timestamp": 1636899156
   }
 }
