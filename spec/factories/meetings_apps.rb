@@ -10,14 +10,14 @@
 
 FactoryBot.define do
   factory :meetings_app do
-    transient do
-      user { create(:user) }
-    end
+    # transient do
+    #   user { create(:user) }
+    # end
 
     title { FFaker::Book.title }
     description { FFaker::Book.title }
-    start_time { Time.zone.today - rand(1..28).days }
-    end_time { Time.zone.today - rand(1..28).days }
-    user_id { 1 }
+    start_time { DateTime.current }
+    end_time { Time.zone.today }
+    # user
   end
 end
