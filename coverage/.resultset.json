@@ -1,60 +1,33 @@
 {
   "RSpec": {
     "coverage": {
-      "C:/Users/danil/meeting_room/spec/requests/meetings_apps_spec.rb": {
+      "C:/Users/danil/meeting_room/spec/models/meetings_app_spec.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          null,
-          2,
           null,
           null,
           1,
-          2,
-          null,
-          2,
-          null,
           null,
           1,
+          1,
           2,
-          null,
+          2,
+          2,
+          2,
+          2,
+          2,
           2,
           null,
           null,
           1,
           2,
-          null,
-          2,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null
         ]
       },
       "C:/Users/danil/meeting_room/spec/rails_helper.rb": {
         "lines": [
+          null,
+          null,
           null,
           1,
           1,
@@ -88,6 +61,8 @@
       "C:/Users/danil/meeting_room/config/environment.rb": {
         "lines": [
           null,
+          null,
+          null,
           1,
           null,
           null,
@@ -96,6 +71,8 @@
       },
       "C:/Users/danil/meeting_room/config/application.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -122,6 +99,8 @@
       },
       "C:/Users/danil/meeting_room/config/boot.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -130,6 +109,8 @@
       },
       "C:/Users/danil/meeting_room/config/environments/test.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           null,
@@ -200,11 +181,14 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
       "C:/Users/danil/meeting_room/config/initializers/assets.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -223,6 +207,8 @@
       },
       "C:/Users/danil/meeting_room/config/initializers/backtrace_silencers.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -264,11 +250,14 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
       "C:/Users/danil/meeting_room/config/initializers/cookies_serializer.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -596,6 +585,8 @@
           null,
           null,
           null,
+          null,
+          null,
           1,
           null,
           null
@@ -603,6 +594,7 @@
       },
       "C:/Users/danil/meeting_room/config/initializers/inflections.rb": {
         "lines": [
+          null,
           null,
           null,
           null,
@@ -626,6 +618,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -641,11 +634,14 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
       "C:/Users/danil/meeting_room/config/initializers/validates_timeliness.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -696,6 +692,8 @@
           null,
           null,
           null,
+          null,
+          null,
           1,
           2,
           null,
@@ -708,6 +706,8 @@
       },
       "C:/Users/danil/meeting_room/spec/factories/meetings_apps.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -735,6 +735,8 @@
       },
       "C:/Users/danil/meeting_room/spec/factories/users.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
@@ -745,6 +747,8 @@
       },
       "C:/Users/danil/meeting_room/config/routes.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
@@ -755,6 +759,8 @@
       },
       "C:/Users/danil/meeting_room/app/models/user.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           null,
@@ -769,6 +775,8 @@
       },
       "C:/Users/danil/meeting_room/app/models/application_record.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           null
@@ -776,24 +784,159 @@
       },
       "C:/Users/danil/meeting_room/app/helpers/application_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "C:/Users/danil/meeting_room/app/helpers/meetings_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "C:/Users/danil/meeting_room/app/helpers/meetings_apps_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
+          null
+        ]
+      },
+      "C:/Users/danil/meeting_room/app/models/meetings_app.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/danil/meeting_room/spec/models/user_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "C:/Users/danil/meeting_room/spec/requests/meetings_apps_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/danil/meeting_room/spec/routing/meetings_apps_routing_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
       "C:/Users/danil/meeting_room/app/controllers/meetings_apps_controller.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
@@ -808,14 +951,12 @@
           1,
           null,
           null,
-          null,
           1,
           0,
           null,
           null,
           null,
           1,
-          null,
           null,
           null,
           1,
@@ -860,6 +1001,7 @@
           null,
           null,
           1,
+          null,
           null,
           1,
           0,
@@ -874,26 +1016,13 @@
       },
       "C:/Users/danil/meeting_room/app/controllers/application_controller.rb": {
         "lines": [
-          1,
-          null
-        ]
-      },
-      "C:/Users/danil/meeting_room/app/models/meetings_app.rb": {
-        "lines": [
-          1,
-          1,
+          null,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
           null
         ]
       }
     },
-    "timestamp": 1636910828
+    "timestamp": 1636913309
   }
 }

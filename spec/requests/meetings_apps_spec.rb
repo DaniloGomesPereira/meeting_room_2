@@ -1,6 +1,8 @@
- require 'rails_helper'
+# frozen_string_literal: true
 
- RSpec.describe 'Meetings_apps', type: :request do
+require 'rails_helper'
+
+RSpec.describe 'Meetings_apps', type: :request do
   describe '#index' do
     subject(:index_meetings_apps) { get '/meetings_apps' }
 
@@ -31,18 +33,18 @@
   #   it { is_expected.to eq(200) }
   # end
 
-#   describe "DELETE /destroy" do
-#     it "destroys the requested meetings_app" do
-#       meetings_app = MeetingsApp.create! valid_attributes
-#       expect {
-#         delete meetings_app_url(meetings_app)
-#       }.to change(MeetingsApp, :count).by(-1)
-#     end
+  #   describe "DELETE /destroy" do
+  #     it "destroys the requested meetings_app" do
+  #       meetings_app = MeetingsApp.create! valid_attributes
+  #       expect {
+  #         delete meetings_app_url(meetings_app)
+  #       }.to change(MeetingsApp, :count).by(-1)
+  #     end
 
-#     it "redirects to the meetings_apps list" do
-#       meetings_app = MeetingsApp.create! valid_attributes
-#       delete meetings_app_url(meetings_app)
-#       expect(response).to redirect_to(meetings_apps_url)
-#     end
-#   end
- end
+  #     it "redirects to the meetings_apps list" do
+  #       meetings_app = MeetingsApp.create! valid_attributes
+  #       delete meetings_app_url(meetings_app)
+  #       expect(response).to redirect_to(meetings_apps_url)
+  #     end
+  #   end
+end

@@ -1,0 +1,17 @@
+inherit_from: .rubocop_todo.yml
+
+Layout/EndOfLine:
+  Enabled: false
+
+Metrics/BlockLength:
+  Max: 29
+
+Metrics/CyclomaticComplexity:
+  Max: 9
+
+Metrics/MethodLength:
+  Max: 13
+
+Metrics/PerceivedComplexity:
+  Max: 9
+

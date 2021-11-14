@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateMeetingsApps < ActiveRecord::Migration[6.1]
   def change
     create_table :meetings_apps do |t|
