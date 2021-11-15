@@ -11,11 +11,10 @@ gem 'puma', '~> 5.0'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 gem 'sass-rails', '>= 6'
 gem 'simple_calendar', '~> 2.4'
-gem 'sqlite3', '~> 1.4'
+
 gem 'turbolinks', '~> 5'
 gem 'validates_timeliness', '~> 6.0.0.alpha1'
 gem 'webpacker', '~> 5.0'
-
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
@@ -29,7 +28,12 @@ end
 
 group :development do
   gem 'rack-mini-profiler', '~> 2.0'
+  gem 'sqlite3', '~> 1.4'
   gem 'web-console', '>= 4.1.0'
+end
+
+group :production do
+  gem 'pg', '~> 1.2', '>= 1.2.3'
 end
 
 group :test do
